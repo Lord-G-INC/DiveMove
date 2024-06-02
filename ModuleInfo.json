@@ -1,1 +1,1 @@
-{"Name": "Dive Move", "Author": "Bavario", "Description": "Adds the Dive from Super Mario 64. Simply press C while mid-air to perform it."}
+{"Name": "Dive Move", "Author": "Bavario", "Description": "Adds the Dive from Super Mario 64. Simply press C while mid-air to perform it.", "InstallDependencies": ["Syati_CommonFunctionHooks"], "ModuleData": [{"OnGameSceneUpdate": [{"Name": "CheckIfDiveAllowed","Function": "checkIfDiveAllowed","Include": "DiveMove.h"}]}]}
