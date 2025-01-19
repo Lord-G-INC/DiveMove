@@ -3,7 +3,7 @@
 bool isDive = false;
 
 void checkIfDiveAllowed () {
-    if (!MR::isOnGroundPlayer() && !isDive && MR::testCorePadTriggerA(0)) {
+    if (!MR::isOnGroundPlayer() && !isDive && MR::testSubPadTriggerC(0)) {
         isDive = true;
         MarioAccess::getPlayerActor()->mMario->trySquatJump();
     } else if (MR::isOnGroundPlayer() && isDive) 
